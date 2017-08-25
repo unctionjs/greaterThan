@@ -1,11 +1,20 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import {{NAME}} from "./source.js"
+import greaterThan from "./source.js"
 
 test(({same, end}) => {
   same(
-    {{NAME}}(true),
+    greaterThan(1)(0),
+    true
+  )
+
+  end()
+})
+
+test(({same, end}) => {
+  same(
+    greaterThan(0)(1),
     false
   )
 

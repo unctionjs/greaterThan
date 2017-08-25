@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/greaterthan",
   "version": "1.0.0",
-  "description": "",
+  "description": "Determines if one number is greater than another number",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/greaterThan#readme",
+  "repository": "github:unctionjs/greaterThan",
+  "bugs": "https://github.com/unctionjs/greaterThan/issues",
   "main": "transpiled/source.js",
   "nyc": {
     "require": [
@@ -56,8 +56,5 @@
     "flow-typed": "2.1.5",
     "nyc": "11.1.0",
     "tap": "10.7.2"
-  },
-  "dependencies": {
-    "ramda": "0.24.1"
   }
 }

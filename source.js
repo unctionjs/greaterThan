@@ -1,3 +1,5 @@
-export default function {{NAME}} (alpha: mixed): mixed {
-  return alpha
+export default function greaterThan (left: number): Function {
+  return function greaterThanRight (right: number): boolean {
+    return left > right
+  }
 }
