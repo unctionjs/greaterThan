@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/greaterThan#readme",
   "repository": "github:unctionjs/greaterThan",
   "bugs": "https://github.com/unctionjs/greaterThan/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "nyc": {
     "require": [
       "babel-register"
@@ -56,6 +56,5 @@
     "flow-typed": "2.1.5",
     "nyc": "11.1.0",
     "tap": "10.7.2"
-  },
-  "main": "transpiled/index.js"
+  }
 }
