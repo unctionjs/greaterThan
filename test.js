@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import greaterThan from "./"
+import greaterThan from "./index"
 
 test(({same, end}) => {
   same(
