@@ -1,5 +1,5 @@
-export default function greaterThan(left) {
-  return function greaterThanRight(right) {
+export default function greaterThan (left) {
+  return function greaterThanRight (right) {
     return left > right;
   };
 }
