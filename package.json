@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/greaterThan#readme",
   "repository": "github:unctionjs/greaterThan",
   "bugs": "https://github.com/unctionjs/greaterThan/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "nyc": {
     "require": [
       "@babel/register"
@@ -66,5 +66,5 @@
   ],
   "dependencies": null,
   "module": "index.js",
-  "browser": "transpiled/browser.js"
+  "browser": "browser.js"
 }
