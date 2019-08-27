@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap";
 
-import greaterThan from "./index";
+import greaterThan from "./";
 
 test(({same, end}) => {
   same(
